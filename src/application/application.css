@@ -1,0 +1,153 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+/** Sadia Miah und Marigona Sejdiu*/
+
+.root{
+	-fx-background-color:white;
+}
+
+#player-header{
+	-fx-alignment:center;
+	-fx-spacing:2.0; 
+	
+}
+#playlist-header{
+	-fx-alignment:center;
+	-fx-font-size:20.0; 
+}
+#title-text{
+	-fx-font-family:Helvetica;
+	-fx-font-size:20.0;
+}
+
+#artist-test{
+	-fx-font-size:5.0;
+	-fx-font-family:Helvetica;
+}
+
+.player-control{
+	-fx-alignment:center;
+	-fx-spacing:10.0;
+}
+
+#cover{
+	 -fx-padding: 10.0 65.0 10.0 7.0;
+	-fx-alignment:center;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#volumen{
+	-fx-padding: 0.0 0.0 0.0 15.0;
+	-fx-spacing:2.0; 
+}
+
+#time{
+	-fx-padding: 0.0 15.0 0.0 0.0;
+}
+
+.slider{
+	-fx-background-color: white;
+	-fx-padding: 0.0 0.0 0.0 15.0;
+	
+}
+.slider .thumb{
+	-fx-background-color: black;
+}
+
+.slider .track{
+	-fx-background-color: lightgrey;
+}
+
+.slider .axis{
+	-fx-tick-label-fill: black;
+}
+.toggle-button {
+	-fx-min-height:50.0;
+	-fx-min-width:50.0;
+	-fx-max-height:50.0;
+	-fx-max-width:50.0;
+	-fx-background-color:white;
+	-fx-background-radius: 4.0em; /*macht runder */
+	-fx-background-repeat:no-repeat no-repeat;
+	-fx-background-position:center;
+	-fx-background-size:30.0 30.0;
+}
+
+.toggle-button:selected {
+   -fx-background-color:lightgrey;
+}
+
+.button{
+	-fx-min-height:50.0;
+	-fx-min-width:50.0;
+	-fx-max-height:50.0;
+	-fx-max-width:50.0;
+	-fx-background-color:white;
+	-fx-background-radius: 4.0em; /*macht runder */
+	-fx-background-repeat:no-repeat no-repeat;
+	-fx-background-position:center;
+}
+
+.button:pressed {
+   -fx-background-color:lightgrey;
+}
+
+#icon-skip-back-button{
+	-fx-background-image: url("/images/skipBack.png");
+	-fx-background-size:38.0 38.0;
+}
+
+
+#icon-play-button{
+	-fx-background-image: url("/images/play.png");
+	-fx-background-size:60.0 60.0;
+}
+
+#icon-pause-button{
+	-fx-background-image: url("/images/pause.png");   
+	-fx-background-size:60.0 60.0;
+}
+
+#icon-skip-button{
+	-fx-background-image: url("/images/skip.png");
+	-fx-background-size:38.0 38.0;
+}
+
+
+#icon-repeat-button{
+-fx-background-image: url(/images/repeat.png);
+
+}
+
+#icon-shuffle-button{
+	-fx-background-image: url(/images/shuffle.png);
+}
+
+#icon-playlist-button{
+	-fx-background-image: url("/images/playlist.png");
+	-fx-background-size:38.0 38.0;
+}
+
+#icon-laut-button{
+	-fx-background-image: url("/images/laut.png");
+	-fx-background-size:23.0 23.0;
+}
+
+#icon-leise-button{
+	-fx-background-image: url("/images/leise.png");
+	-fx-background-size:23.0 23.0;
+}
+
+#icon-player-button{
+	-fx-background-image: url("/images/player.png");
+	-fx-background-size:38.0 38.0;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #242424;
+    -fx-text-fill: white;
+}
+.list-cell:filled:hover {
+    -fx-background-color: lightgrey;
+    -fx-text-fill: black;
+}
