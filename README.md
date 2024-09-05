@@ -1,4 +1,4 @@
-# MP3-Player-Projekt
+# MP3-Player
 
 Dieses Projekt ist ein MP3-Player-Projekt, das im Rahmen des Fachs "Entwicklung Interaktiver Benutzeroberflächen" an der Hochschule RheinMain entwickelt wurde.
 
